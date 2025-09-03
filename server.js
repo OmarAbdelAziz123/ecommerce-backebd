@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const mongoose = require("mongoose");
 dotenv.config({ path: "config.env" });
 
-// Connect with db
+// Connect with db 2
 mongoose
   .connect(process.env.DB_URI)
   .then((conn) => {
